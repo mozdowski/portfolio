@@ -1,4 +1,4 @@
-# Unbound Mind — offline-first OCD self-help app
+# <img src="../assets/unbound-mind/app-icon.png" width="28" alt="" /> Unbound Mind — offline-first OCD self-help app
 
 > **Status:** Private, pre-release · **Code:** private, available on request · **Role:** solo design, development & security engineering
 >
@@ -35,6 +35,3 @@ Flutter/Dart · Provider · GoRouter · Hive · PointyCastle (AES-GCM) · native
 
 ~16,000 lines of Dart application code (excluding generated localization) across 67 source files, with **77 test files (~6,800 LOC)** — better than 1:1 test-file-to-source-file ratio. Security has its own test cluster: encryption round-trips, key migration, unlock/relock cycles, hardware attestation probing, panic wipe. Development followed a written plan-and-spec process — 71 planning/spec documents, one pair per feature slice.
 
-## Screenshots
-
-*Coming soon.*

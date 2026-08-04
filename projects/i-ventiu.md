@@ -35,6 +35,22 @@ Universal event planner built on a simple insight: **PC-part-picker mechanics ap
 
 ~33,000 lines of tracked code (12,000 Python excluding migrations, 10,500 hand-written TypeScript, 4,000 CSS), 654 automated tests across three layers, visual-regression baselines committed to git, modular-monolith boundaries enforced by convention and honored in code.
 
-## Screenshots & demo
+## Screenshots
 
-*Coming soon.*
+*Straight from the committed visual-regression baselines — guaranteed to match the current build. All data is synthetic test-fixture data.*
+
+The poster wall — the signature screen (suggestions rendered as red string between blocks):
+
+![Poster wall](../assets/i-ventiu/wall-desktop.png)
+
+Live budget rebalancing on the ticket strip — dragging a divider moves money between slots:
+
+![Budget rebalance](../assets/i-ventiu/wall-budget.gif)
+
+| Provider backstage | Provider listings |
+|---|---|
+| ![Backstage](../assets/i-ventiu/backstage-hub-desktop.png) | ![Listings](../assets/i-ventiu/my-listings-desktop.png) |
+
+| Guest RSVP (tokenized, login-free) | Mobile wall |
+|---|---|
+| ![RSVP](../assets/i-ventiu/rsvp-desktop.png) | ![Mobile](../assets/i-ventiu/wall-mobile.png) |

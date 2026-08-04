@@ -1,4 +1,4 @@
-# AIdwokat — regulatory-change early warning for Polish businesses
+# <img src="../assets/ai-dwokat/logo.svg" width="28" alt="" /> AIdwokat — regulatory-change early warning for Polish businesses
 
 > **Status:** Private MVP in development · **Code:** private, available on request · **Role:** solo design, development, ML/RAG engineering
 
@@ -32,6 +32,14 @@ A legal-monitoring SaaS that watches official Polish legal acts (Dziennik Ustaw,
 
 ~86,000 lines of hand-written code: ~40,000 backend, ~9,000 frontend source, and a genuinely unusual test footprint — roughly **1:1 test-to-source ratio on both sides** (15,500 backend test LOC, 9,700 frontend unit + E2E). Seven narrated demo scenarios recorded via a scripted Playwright pipeline (video + subtitles + narration script per flow).
 
-## Screenshots & demo
+## In motion
 
-*Coming soon.*
+*Seeded demo data.*
+
+The generated newsletter — "entering into force soon" leads, sorted by countdown (the product promise):
+
+![Newsletter](../assets/ai-dwokat/06-newsletter-generated.gif)
+
+Dashboard → act detail with relevance rationale:
+
+![Dashboard to act detail](../assets/ai-dwokat/02-dashboard-act-detail.gif)

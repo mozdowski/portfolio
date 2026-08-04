@@ -1,5 +1,15 @@
 # Portfolio — mozdowski
 
+<p>
+  <img src="assets/vetty/vet-tearsheet-release.png" width="49%" alt="Vetty — vet tearsheet with release panel" />
+  <img src="assets/i-ventiu/wall-desktop.png" width="49%" alt="i-ventiu — poster wall" />
+</p>
+<p>
+  <img src="assets/sovereign/chart.png" width="24%" alt="Pełnia — BBT chart" />
+  <img src="assets/sovereign/today.png" width="24%" alt="Pełnia — today" />
+  <img src="assets/wedding-master-plan/redesign-dashboard.png" width="49%" alt="Wedding Master Plan — redesigned dashboard" />
+</p>
+
 Six production-grade products, built solo, end to end: product design, backend, frontend, ML/AI, security, compliance and ops. The source is private — these are commercial SaaS candidates — but each case study below documents the architecture and engineering decisions, and **read access to any repo can be arranged for interview processes on request**.
 
 ## Projects

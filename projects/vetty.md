@@ -37,6 +37,24 @@ An AI triage platform sold to veterinary clinics (Polish market). A clinic embed
 
 ~32,000 lines of application code: a layered FastAPI backend (~12,800 LOC excluding tests), three frontend apps (~12,400 LOC), 308 backend test functions (~6,700 LOC), 8 migrations, CI on every push, 526 commits. Six narrated demo videos recorded via scripted Playwright scenarios.
 
-## Screenshots & demo
+## In motion
 
-*Coming soon.*
+*All data shown is synthetic seed data (E2E test clinic).*
+
+The full vet-gate arc — case inbox → AI tearsheet → vet edits the owner summary → release ("raw AI results are never sent" is the product thesis):
+
+![Vet release flow](../assets/vetty/vet-release.gif)
+
+Owner intake wizard (embeddable form):
+
+![Owner intake](../assets/vetty/embed-submit.gif)
+
+## Screenshots
+
+| Vet inbox — triage-sorted | Tearsheet with release panel (the vet gate) |
+|---|---|
+| ![Vet inbox](../assets/vetty/vet-inbox.png) | ![Tearsheet](../assets/vetty/vet-tearsheet-release.png) |
+
+| Vet dashboard | Owner dashboard |
+|---|---|
+| ![Vet dashboard](../assets/vetty/vet-dashboard.png) | ![Owner dashboard](../assets/vetty/owner-dashboard.png) |

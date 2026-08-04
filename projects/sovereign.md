@@ -33,6 +33,12 @@ Flutter/Dart · Riverpod · SQLCipher (AES-256) · TensorFlow Lite (on-device in
 
 ~9,000 lines of Dart application code, **240 tests, all passing** — including unit tests for the cycle-evaluation and Bayesian models cross-checked against a Python reference implementation, and regression tests named after specific incidents. ~18,600 lines of design and planning documentation.
 
-## Screenshots
+## Screens
 
-*Coming soon (with synthetic demo data).*
+*From the design prototype — "Midnight Rose" dark theme, synthetic data.*
+
+<p>
+  <img src="../assets/sovereign/today.png" width="30%" alt="Today — fertility status ring" />
+  <img src="../assets/sovereign/chart.png" width="30%" alt="BBT chart with coverline and Sensiplan rule annotation" />
+  <img src="../assets/sovereign/calendar.png" width="30%" alt="Cycle calendar with phase legend" />
+</p>

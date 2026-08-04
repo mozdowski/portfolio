@@ -37,6 +37,8 @@ A wedding planning "command center" for couples — built to replace the fragmen
 
 ~19,500 lines of application code (excluding vendored UI components) across a React SPA and a layered FastAPI backend (routers → repositories → models, with a generic typed repository base and wedding-scoped access control).
 
-## Screenshots
+## Design direction
 
-*Coming soon.*
+*From the UX redesign handoff — editorial serif numerals, restrained accent color, synthetic data.*
+
+![Redesigned dashboard and vendor panel](../assets/wedding-master-plan/redesign-dashboard.png)
