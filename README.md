@@ -43,6 +43,7 @@ Generic pieces extracted from these projects, each with full test suites:
 - [tristate-predicates](https://github.com/mozdowski/tristate-predicates) — declarative JSON rules evaluated with explicit indeterminacy as a first-class result; the fail-open vs fail-closed pattern. Zero dependencies. 69 tests, verified equivalent to the production original across a 28,800-case differential run.
 - [playwright-demo-recorder](https://github.com/mozdowski/playwright-demo-recorder) — record narrated, subtitled product demo videos from Playwright scenarios that assert their flow's business outcome: a clip that records is a flow that works; a broken flow exits non-zero and delivers no video.
 - [ssh-control-mcp](https://github.com/mozdowski/ssh-control-mcp) — MCP server for SSH control.
+- [claude-skills](https://github.com/mozdowski/claude-skills) — Claude Code skills I author and benchmark: the demo-recorder skill (A/B evaluated: 100% ±0% pass with it vs 86% ±20% without) and portfolio-forge, the workflow that produced this very portfolio.
 
 ## Contact
 
