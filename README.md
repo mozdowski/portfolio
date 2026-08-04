@@ -25,10 +25,14 @@ Six production-grade products, built solo, end to end: product design, backend, 
 
 ## Open source
 
-Selected generic pieces extracted from these projects:
+Generic pieces extracted from these projects, each with full test suites:
 
-- [ssh-control-mcp](https://github.com/mozdowski/ssh-control-mcp) — MCP server for SSH control
-- *More extractions in progress — mirrored Python/TypeScript Sentry PII scrubbers, an auth-bound key store for Flutter, a retrieval eval harness, and a Playwright narrated-demo recorder are queued for release.*
+- [sentry-pii-scrub](https://github.com/mozdowski/sentry-pii-scrub) — mirrored Python + TypeScript PII scrubbers for Sentry: one reviewable policy (headers, bodies, cookies, URLs, stack-frame locals, breadcrumbs, user identity) enforced in both runtimes. 39 tests.
+- [flutter-auth-bound-key-store](https://github.com/mozdowski/flutter-auth-bound-key-store) — auth-bound data-encryption keys for Flutter on Android: AndroidKeyStore key requiring a live biometric/device-credential check on every use, unwrapped only inside a `BiometricPrompt.CryptoObject`. Built after verifying on-device that a popular plugin's "biometric" mode silently dropped the auth requirement.
+- [retrieval-eval-kit](https://github.com/mozdowski/retrieval-eval-kit) — gate RAG/retrieval changes on a frozen golden set: recall@k, precision@k, MRR, baseline comparison. Zero dependencies. 36 tests.
+- [tristate-predicates](https://github.com/mozdowski/tristate-predicates) — declarative JSON rules evaluated with explicit indeterminacy as a first-class result; the fail-open vs fail-closed pattern. Zero dependencies. 69 tests, verified equivalent to the production original across a 28,800-case differential run.
+- [ssh-control-mcp](https://github.com/mozdowski/ssh-control-mcp) — MCP server for SSH control.
+- *Queued for extraction: a Playwright narrated-demo recorder (video + subtitles + narration script per flow, failing the build if the flow breaks).*
 
 ## Contact
 
