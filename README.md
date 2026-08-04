@@ -41,8 +41,8 @@ Generic pieces extracted from these projects, each with full test suites:
 - [flutter-auth-bound-key-store](https://github.com/mozdowski/flutter-auth-bound-key-store) — auth-bound data-encryption keys for Flutter on Android: AndroidKeyStore key requiring a live biometric/device-credential check on every use, unwrapped only inside a `BiometricPrompt.CryptoObject`. Built after verifying on-device that a popular plugin's "biometric" mode silently dropped the auth requirement.
 - [retrieval-eval-kit](https://github.com/mozdowski/retrieval-eval-kit) — gate RAG/retrieval changes on a frozen golden set: recall@k, precision@k, MRR, baseline comparison. Zero dependencies. 36 tests.
 - [tristate-predicates](https://github.com/mozdowski/tristate-predicates) — declarative JSON rules evaluated with explicit indeterminacy as a first-class result; the fail-open vs fail-closed pattern. Zero dependencies. 69 tests, verified equivalent to the production original across a 28,800-case differential run.
+- [playwright-demo-recorder](https://github.com/mozdowski/playwright-demo-recorder) — record narrated, subtitled product demo videos from Playwright scenarios that assert their flow's business outcome: a clip that records is a flow that works; a broken flow exits non-zero and delivers no video.
 - [ssh-control-mcp](https://github.com/mozdowski/ssh-control-mcp) — MCP server for SSH control.
-- *Queued for extraction: a Playwright narrated-demo recorder (video + subtitles + narration script per flow, failing the build if the flow breaks).*
 
 ## Contact
 
